@@ -3,9 +3,9 @@ const router = express.Router();
 const loginController = require('../controllers/loginController');
 
 // 로그인
-router.post('/auth/login', loginController.login);
+router.post('/login', loginController.login);
 
 // 로그아웃
-router.post('/auth/logout', loginController.logout);
+router.post('/logout', loginController.logout);
 
 module.exports = router;
